@@ -9,12 +9,12 @@
 <body>
      <h1>Formulário de Cadastro de Usuário</h1>
 
-    <form name="cad_user" action="senhaa.html" method="post"></form>
+    <form name="cad_user" action="senhaa.html" method="post">
      <label for="nome">Informe seu nome: </label>
     <input type="text" name="nome" id="nome"/><br/>
 
      <label for="senha">Informe sua senha:</label>
-     <input type="password" name="senha" id="senha" required>/><br/>
+     <input type="password" name="senha" id="senha" maxlength="8">/><br/>
 
      <label for="email">Informe seu email:</label>
      <input type="text" name="email" id="email" placeholder="exemplo@suaempresa.com"/><br/>
@@ -22,25 +22,57 @@
      <label for="data">Informe data de nascimento</label>
      <input type="date" name="data" id="data"/><br/>
 
+     <b>Horário da reunião do time</b><br>
+     <input type="radio" name="reuniao" id="manha" value="manha">
+     <label for="manha">manhã</label><br>
+
+     <input type="radio" name="reuniao" id="tarde" value="tarde">
+     <label for="tarde">tarde</label><br>
+
+     <input type="radio" name="reuniao" id="noite" value="noite" checked>
+     <label for="noite">noite</label><br>
+
+     <b>Tipo de reunião</b>
+     <input type="checkbox" name="tipo" id="remoto" value="remoto">
+     <label for="remoto">remoto</label><br>
+     <input type="checkbox" name="tipo" id="presencial" value="presencial">
+     <label for="presencial">presencial</label><br>
+     <input type="checkbox" name="hibrido" id="hibrido" value="hibrido">
+     <label for="hibrido">hibrido</label><br>
+
+     <b>Selecione seu estado</b>
+     <select name="estado">
+      <option value="PE"/>selectd PERNAMBUCO
+      <option value="BA"/>BAHIA
+      <option value="PB"/>PARAIBA
+      <option value="PA"/>PARANÁ
+     </select>
+     
+     <br>
+
+     <b>Observação</b>
+     <textarea rows="10" cols="30" maxlength="150">
+     O gato está parado
+     </textarea>
+
+     <br>
+     <input type="resert" value="limpar">
+     <input type="submit" value="cadastrar>
+
+
+
+
      <input type="submit" value="cadastrar">
+
+
     <br><br><br>
-
-
-
-
-
-
-
-
-
-
-
+    </form>
 
 
 
     <h1>Solicitação de Cancelamento</h1>
 
-    <table style="background-color: rgba(249, 249, 252, 0.644);" border="1" >
+    <table border="1" >
         <tr>
         <td>Dominío</td>
 
@@ -102,20 +134,6 @@
             <button> Enviar Dados</button>
           </td>
         </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </table>
 </body>
 </html>
