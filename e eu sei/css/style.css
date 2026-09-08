@@ -1,0 +1,38 @@
+h1{
+    color:green;
+    font-size: 20px;
+}
+
+p{
+    color: #0c10e6;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+p.vermelho{
+    color: rgb(237, 48, 10);
+}
+
+
+legend.Google{
+    color:rgb(48, 18, 221);
+}
+legend.Pesquisa{
+    color: aqua;
+}
+body{
+   background-color: rgb(101, 224, 146);
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: 200px;
+   background-attachment: scroll;
+}
+
+p.legal{
+    text-transform: capitalize;
+}
+
+h3.sid{
+    text-transform: capitalize;
+}
+
