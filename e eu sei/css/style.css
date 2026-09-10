@@ -33,6 +33,12 @@ li.PG{
     font-size: 1.2em;
 }
 
+a:visited{
+ color: #e92d14;
+}
+    
+
+
 p.legal{
     text-transform: capitalize;
 }
@@ -40,4 +46,6 @@ p.legal{
 h3.sid{
     text-transform: capitalize;
 }
-
+ul{
+ list-style-type:square;
+}
