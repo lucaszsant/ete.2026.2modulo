@@ -26,6 +26,11 @@ body{
    background-position: top left;
    background-size: 200px;
    background-attachment: scroll;
+   font-family :'Georgia,' 'Times' 'New Roman', 'Times, serif'
+}
+li.PG{
+    font-style: italic;
+    font-size: 1.2em;
 }
 
 p.legal{
