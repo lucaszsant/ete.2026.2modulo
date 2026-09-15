@@ -48,4 +48,19 @@ h3.sid{
 }
 ul{
  list-style-type:square;
+ list-style-position: inside;
+ color:#d30d60
+}
+
+
+a{
+    color:blue;
+}
+
+a.virtuais{
+    color:#ff0000;
+}
+
+a.estrategia{
+    color:#11cc00
 }
