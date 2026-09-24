@@ -74,3 +74,29 @@ h1{
   text-align: center;
 }
 
+.nova-tabela{
+    color: darkblue;
+}
+
+.nova-tabela table{
+    border-collapse: collapse;
+}
+.nova-tabela th,
+.nova-tabela td {
+ border: 1px solid darkblue;
+}
+
+.nova-tabela th{
+    background-color: darkblue;
+    color:white
+}
+.nova-tabela td{
+    background: lightblue;
+}
+
+#sei{
+    font-size: 24px;
+    color: darkblue;
+    
+    letter-spacing: 2px;
+}
