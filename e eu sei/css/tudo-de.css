@@ -1,0 +1,76 @@
+h1{
+    color:rgb(1, 31, 1);
+    font-size: 20px;
+}
+
+p{
+    color: #0c10e6;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+p.vermelho{
+    color: rgb(237, 48, 10);
+}
+
+
+legend.Google{
+    color:rgb(240, 38, 12);
+}
+legend.Pesquisa{
+    color: rgb(240, 38, 12);
+}
+body{
+   background-color:rgba(0, 0, 0, 0.274);
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: 200px;
+   background-attachment: scroll;
+   font-family :'Georgia,' 'Times' 'New Roman', 'Times, serif'
+}
+li.PG{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+a:visited{
+ color: #e92d14;
+}
+    
+
+
+p.legal{
+    text-transform: capitalize;
+}
+
+h3.sid{
+    text-transform: capitalize;
+}
+ul{
+ list-style-type:square;
+ list-style-position: inside;
+ color:#d30d60
+}
+
+
+a{
+    color:blue;
+}
+
+a.virtuais{
+    color:#ff0000;
+}
+
+a.estrategia{
+    color:#11cc00
+}
+
+
+body{
+    margin:100px, 40px, 100px,100px;
+}
+ 
+h1{
+  text-align: center;
+}
+
